@@ -26,9 +26,7 @@ for ( var i=0; i < tokens.length; i++) {
 tokenAddresses[i] = "0x0000000000000000000000000000000000000000";
 
 getAddressesBalances(web3, addresses, tokenAddresses).then(balances => {
-  console.log(JSON.stringify(balances));
   console.log(balances);
-  //console.log(web3.utils.fromWei(balances))
 });
   }
 
